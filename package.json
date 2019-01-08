@@ -7,6 +7,7 @@
     "Kent C. Dodds <kent@doddsfamily.us>"
   ],
   "scripts": {
+    "prepare": "npm run build", 
     "contrib:generate": "githubcontrib --owner formly-js --repo ngx-formly --cols 6 --sortOrder desc > CONTRIBUTORS.md",
     "lint": "tslint -p tsconfig.json",
     "lint:fix": "tslint --fix -p tsconfig.json",
